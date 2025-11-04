@@ -7,7 +7,7 @@ import (
 	"github.com/martishin/go-design-patterns/patterns/creational/factorymethod/internal/htmlgui"
 )
 
-func TestHtmlDialog_GoldenOutput(t *testing.T) {
+func TestHTMLDialog_GoldenOutput(t *testing.T) {
 	dialog := htmlgui.New()
 
 	var buf bytes.Buffer
