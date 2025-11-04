@@ -1,2 +1,3 @@
-# go-design-patterns-
+# go-design-patterns
+
 GoF design patterins implemented in golang
