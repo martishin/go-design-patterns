@@ -9,3 +9,9 @@ lint:
 
 run-factorymethod:
 	go run ./patterns/creational/factorymethod/cmd
+
+run-abstractfactory:
+	go run ./patterns/creational/abstractfactory/cmd
+
+run-builder:
+	go run ./patterns/creational/builder/cmd
