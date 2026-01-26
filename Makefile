@@ -15,3 +15,6 @@ run-abstractfactory:
 
 run-builder:
 	go run ./patterns/creational/builder/cmd
+
+run-prototype:
+	go run ./patterns/creational/prototype/cmd
