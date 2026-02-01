@@ -18,3 +18,6 @@ run-builder:
 
 run-prototype:
 	go run ./patterns/creational/prototype/cmd
+
+run-singleton:
+	go run ./patterns/creational/singleton/cmd

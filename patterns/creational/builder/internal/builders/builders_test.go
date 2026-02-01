@@ -1,11 +1,13 @@
-package builders
+package builders_test
 
 import (
 	"testing"
+
+	"github.com/martishin/go-design-patterns/patterns/creational/builder/internal/builders"
 )
 
 func TestNormalBuilder(t *testing.T) {
-	b := NewNormalBuilder()
+	b := builders.NewNormalBuilder()
 	h := b.SetWindowType("Wooden").SetDoorType("Wooden").SetNumFloors(2).Build()
 
 	if h.WindowType != "Wooden" {
@@ -20,7 +22,7 @@ func TestNormalBuilder(t *testing.T) {
 }
 
 func TestIglooBuilder(t *testing.T) {
-	b := NewIglooBuilder()
+	b := builders.NewIglooBuilder()
 	h := b.Build()
 
 	if h.WindowType != "Snow" {

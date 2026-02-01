@@ -7,12 +7,14 @@ import (
 	"github.com/martishin/go-design-patterns/patterns/creational/builder/pkg/house"
 )
 
+const numOfFloors = 2
+
 func main() {
 	normalBuilder := builders.NewNormalBuilder()
 	iglooBuilder := builders.NewIglooBuilder()
 
 	architect := house.NewArchitect(normalBuilder)
-	architect.SetHouseParams("Wooden", "Wooden", 2)
+	architect.SetHouseParams("Wooden", "Wooden", numOfFloors)
 
 	normalHouse := architect.BuildHouse()
 	fmt.Println(normalHouse)
