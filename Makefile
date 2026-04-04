@@ -21,3 +21,6 @@ run-prototype:
 
 run-singleton:
 	go run ./patterns/creational/singleton/cmd
+
+run-adapter:
+	go run ./patterns/structural/adapter/cmd
