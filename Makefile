@@ -24,3 +24,6 @@ run-singleton:
 
 run-adapter:
 	go run ./patterns/structural/adapter/cmd
+
+run-bridge:
+	go run ./patterns/structural/bridge/cmd
