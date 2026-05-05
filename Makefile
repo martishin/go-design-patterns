@@ -27,3 +27,6 @@ run-adapter:
 
 run-bridge:
 	go run ./patterns/structural/bridge/cmd
+
+run-composite:
+	go run ./patterns/structural/composite/cmd
