@@ -30,3 +30,6 @@ run-bridge:
 
 run-composite:
 	go run ./patterns/structural/composite/cmd
+
+run-decorator:
+	go run ./patterns/structural/decorator/cmd
