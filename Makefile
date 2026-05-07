@@ -33,3 +33,6 @@ run-composite:
 
 run-decorator:
 	go run ./patterns/structural/decorator/cmd
+
+run-facade:
+	go run ./patterns/structural/facade/cmd
