@@ -36,3 +36,6 @@ run-decorator:
 
 run-facade:
 	go run ./patterns/structural/facade/cmd
+
+run-flyweight:
+	go run ./patterns/structural/flyweight/cmd
