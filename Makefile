@@ -42,3 +42,6 @@ run-flyweight:
 
 run-proxy:
 	go run ./patterns/structural/proxy/cmd
+
+run-chainofresponsibility:
+	go run ./patterns/behavioral/chainofresponsibility/cmd
