@@ -48,3 +48,6 @@ run-chainofresponsibility:
 
 run-command:
 	go run ./patterns/behavioral/command/cmd
+
+run-iterator:
+	go run ./patterns/behavioral/iterator/cmd
