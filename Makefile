@@ -39,3 +39,6 @@ run-facade:
 
 run-flyweight:
 	go run ./patterns/structural/flyweight/cmd
+
+run-proxy:
+	go run ./patterns/structural/proxy/cmd
