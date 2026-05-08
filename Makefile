@@ -51,3 +51,6 @@ run-command:
 
 run-iterator:
 	go run ./patterns/behavioral/iterator/cmd
+
+run-mediator:
+	go run ./patterns/behavioral/mediator/cmd
