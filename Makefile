@@ -57,3 +57,6 @@ run-mediator:
 
 run-memento:
 	go run ./patterns/behavioral/memento/cmd
+
+run-observer:
+	go run ./patterns/behavioral/observer/cmd
