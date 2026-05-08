@@ -45,3 +45,6 @@ run-proxy:
 
 run-chainofresponsibility:
 	go run ./patterns/behavioral/chainofresponsibility/cmd
+
+run-command:
+	go run ./patterns/behavioral/command/cmd
