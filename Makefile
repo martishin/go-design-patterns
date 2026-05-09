@@ -69,3 +69,6 @@ run-strategy:
 
 run-templatemethod:
 	go run ./patterns/behavioral/templatemethod/cmd
+
+run-visitor:
+	go run ./patterns/behavioral/visitor/cmd
