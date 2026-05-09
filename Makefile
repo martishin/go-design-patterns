@@ -66,3 +66,6 @@ run-state:
 
 run-strategy:
 	go run ./patterns/behavioral/strategy/cmd
+
+run-templatemethod:
+	go run ./patterns/behavioral/templatemethod/cmd
