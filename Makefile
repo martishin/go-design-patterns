@@ -60,3 +60,6 @@ run-memento:
 
 run-observer:
 	go run ./patterns/behavioral/observer/cmd
+
+run-state:
+	go run ./patterns/behavioral/state/cmd
