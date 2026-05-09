@@ -63,3 +63,6 @@ run-observer:
 
 run-state:
 	go run ./patterns/behavioral/state/cmd
+
+run-strategy:
+	go run ./patterns/behavioral/strategy/cmd
